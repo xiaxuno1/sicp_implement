@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="942b5a5d-c97a-4a52-bc81-65eb23be1611" name="Default Changelist" comment="" />
+    <list default="true" id="942b5a5d-c97a-4a52-bc81-65eb23be1611" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch4/coroutine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch4/dead_lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch4/lock_and_single.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch4/stream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hog/dice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hog/hog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hog/hog_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hog/images/die1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hog/images/die2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hog/images/die3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hog/images/die4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hog/images/die5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hog/images/die6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hog/ucb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +33,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2RUhF0I3fv2QDQaWkaaif9WtJa3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -33,28 +58,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.calculator">
-    <configuration name="2.7generic_opration" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sicp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch2/2.7generic_opration.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="3.3level_strcture" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sicp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,28 +72,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\sicp\ch3\level_strcture.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3.3recursive_data_structure" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sicp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\sicp\ch3\recursive_data_structure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,6 +124,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="coroutine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sicp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4/coroutine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lock_and_single" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sicp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4/lock_and_single.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="set_container" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sicp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,19 +192,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.2.7generic_opration" />
-      <item itemvalue="Python.3.3recursive_data_structure" />
       <item itemvalue="Python.3.3level_strcture" />
       <item itemvalue="Python.set_container" />
       <item itemvalue="Python.calculator" />
+      <item itemvalue="Python.lock_and_single" />
+      <item itemvalue="Python.coroutine" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.calculator" />
+        <item itemvalue="Python.coroutine" />
+        <item itemvalue="Python.lock_and_single" />
         <item itemvalue="Python.set_container" />
         <item itemvalue="Python.3.3level_strcture" />
-        <item itemvalue="Python.3.3recursive_data_structure" />
-        <item itemvalue="Python.2.7generic_opration" />
       </list>
     </recent_temporary>
   </component>
@@ -193,12 +218,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687310459973</updated>
-      <workItem from="1687310476429" duration="47002000" />
+      <workItem from="1687310476429" duration="55687000" />
+      <workItem from="1692756818851" duration="4682000" />
+      <workItem from="1692868735350" duration="731000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -248,17 +291,29 @@
           <line>89</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ch4/lock_and_single.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ch4/coroutine.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sicp$2_4mutable_data.coverage" NAME="2.4mutable_data Coverage Results" MODIFIED="1687329597095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
     <SUITE FILE_PATH="coverage/sicp$set_container.coverage" NAME="set_container Coverage Results" MODIFIED="1687762138356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3" />
+    <SUITE FILE_PATH="coverage/sicp$coroutine.coverage" NAME="coroutine Coverage Results" MODIFIED="1687932507300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
     <SUITE FILE_PATH="coverage/sicp$2_7generic_opration.coverage" NAME="2.7generic_opration Coverage Results" MODIFIED="1687675529448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
+    <SUITE FILE_PATH="coverage/sicp$lock_and_single.coverage" NAME="lock_and_single Coverage Results" MODIFIED="1687918617266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
     <SUITE FILE_PATH="coverage/sicp$3_3level_strcture.coverage" NAME="3.3level_strcture Coverage Results" MODIFIED="1687760934236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3" />
     <SUITE FILE_PATH="coverage/sicp$2_2sequences.coverage" NAME="2.2sequences Coverage Results" MODIFIED="1687311618034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
     <SUITE FILE_PATH="coverage/sicp$3_3recursive_data_structure.coverage" NAME="3.3recursive_data_structure Coverage Results" MODIFIED="1687744338613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3" />
-    <SUITE FILE_PATH="coverage/sicp$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1687848363709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch35" />
+    <SUITE FILE_PATH="coverage/sicp$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1692757925536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch35" />
     <SUITE FILE_PATH="coverage/sicp$2_3mutable_data.coverage" NAME="2.3mutable_data Coverage Results" MODIFIED="1687317929736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2" />
   </component>
 </project>
